@@ -26,12 +26,12 @@ class _HomePageState extends State<HomePage> {
   int _currentPage = 0; // For bottom navigation
 
   final List<Map<String, String>> categories = [
-    {'name': 'Business', 'image': 'assets/business.png'},
-    {'name': 'Entertainment', 'image': 'assets/entertainment.png'},
-    {'name': 'Sports', 'image': 'assets/sports.png'},
-    {'name': 'Health', 'image': 'assets/health.png'},
-    {'name': 'Science', 'image': 'assets/science.png'},
-    {'name': 'Technology', 'image': 'assets/technology.png'},
+    {'name': 'Business', 'image': 'android/assets/business.png'},
+    {'name': 'Entertainment', 'image': 'android/assets/entertainment.png'},
+    {'name': 'Sports', 'image': 'android/assets/sports.png'},
+    {'name': 'Health', 'image': 'android/assets/health.png'},
+    {'name': 'Science', 'image': 'android/assets/science.png'},
+    {'name': 'Technology', 'image': 'android/assets/technology.png'},
   ];
 
   int _currentIndex = 0;
